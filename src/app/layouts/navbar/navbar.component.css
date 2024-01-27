@@ -1,0 +1,13 @@
+nav{
+  margin-top: 100px;
+  height: 50px;
+  background-color: var(--navbar-footer-color);
+}
+.nav-link{
+  text-transform: uppercase;
+}
+
+/* Custom CSS for the text color of the active link */
+.navbar-nav a.active-link {
+  color: #007bff; /* Change to the desired text color for the active link */
+}

@@ -1,0 +1,17 @@
+<section class="container mt-5">
+<div class="col-md-12 text-center">
+  <h2> Latest events</h2>
+  <p class="text-black">Don't miss any opportunity to treat yourself </p>
+</div>
+  
+<div class="row justify-content-center"> 
+
+  <div class="col-md-8 mt-3">
+    <app-event-card *ngFor="let event of events" [event]="event"  ></app-event-card>
+  </div>
+
+
+</div>
+
+
+</section>
